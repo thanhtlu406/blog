@@ -3,6 +3,20 @@ module:
         extended: true
         min: "0.87.0"
 
+DefaultContentLanguage: en
+
+# Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
+# This will make .Summary and .WordCount behave correctly for CJK languages.
+hasCJKLanguage: false
+
+languages:
+    en:
+        languageName: English
+        title: ThanhNV
+        weight: 1
+        params:
+            description: Example description
+
 params:
     mainSections:
         - post
@@ -117,8 +131,19 @@ params:
             id:
 
     widgets:
-        homepage: []
-        page: []
+        homepage:
+            - type: search
+            - type: archives
+              params:
+                  limit: 5
+            - type: categories
+              params:
+                  limit: 10
+            - type: tag-cloud
+              params:
+                  limit: 10
+        page:
+            - type: toc
 
     opengraph:
         twitter:
@@ -146,3 +171,21 @@ params:
             enabled: true
         content:
             enabled: true
+
+markup:
+    goldmark:
+        renderer:
+            ## Set to true if you have HTML content inside Markdown
+            unsafe: true
+    tableOfContents:
+        endLevel: 4
+        ordered: true
+        startLevel: 2
+    highlight:
+        noClasses: false
+        codeFences: true
+        guessSyntax: true
+        lineNoStart: 1
+        lineNos: true
+        lineNumbersInTable: true
+        tabWidth: 4
