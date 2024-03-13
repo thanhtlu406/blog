@@ -12,7 +12,7 @@ hasCJKLanguage: false
 languages:
     en:
         languageName: English
-        title: ThanhNV
+        title: Nguyen Van Thanh
         weight: 1
         params:
             description: Example description
