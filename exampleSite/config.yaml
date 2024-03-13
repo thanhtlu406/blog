@@ -16,23 +16,16 @@ hasCJKLanguage: false
 languages:
     en:
         languageName: English
-        title: Example Site
+        title: Nguyen Van Thanh
         weight: 1
         params:
             description: Example description
-    zh-cn:
-        languageName: 中文
-        title: 演示站点
+    vi:
+        languageName: Tiếng Việt
+        title: Nguyễn Văn Thành
         weight: 2
         params:
-            description: 演示说明
-    ar:
-        languageName: عربي
-        languagedirection: rtl
-        title: موقع تجريبي
-        weight: 3
-        params:
-            description: وصف تجريبي
+            description: Example description
 
 services:
     # Change it to your Disqus shortname before using
