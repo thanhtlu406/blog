@@ -176,17 +176,17 @@ menu:
     main: []
 
     social:
-        - identifier: github
-          name: GitHub
-          url: https://github.com/thanhtlu213
-          params:
-              icon: brand-github
-
         - identifier: facebook
           name: Facebook
           url: https://www.facebook.com/thanh.2103
           params:
               icon: brand-facebook
+                  
+        - identifier: github
+          name: GitHub
+          url: https://github.com/thanhtlu213
+          params:
+              icon: brand-github
               
 markup:
     goldmark:
