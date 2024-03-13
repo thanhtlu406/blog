@@ -178,13 +178,13 @@ menu:
     social:
         - identifier: github
           name: GitHub
-          url: https://github.com/thanhtlu213
+          url: https://github.com/
           params:
               icon: brand-github
 
         - identifier: facebook
           name: Facebook
-          url: https://www.facebook.com/thanh.2103
+          url: https://www.facebook.com/
           params:
               icon: brand-facebook
               
