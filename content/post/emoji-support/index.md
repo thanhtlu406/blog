@@ -9,7 +9,7 @@ categories = [
 tags = [
     "emoji",
 ]
-image = "the-creative-exchange-d2zvqp3fpro-unsplash.jpg"
+image = "the-creative-exchange.jpg"
 +++
 
 Emoji can be enabled in a Hugo project in a number of ways. 
