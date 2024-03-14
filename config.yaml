@@ -12,7 +12,7 @@ hasCJKLanguage: false
 languages:
     en:
         languageName: English
-        title: Nguyen Van Thanh 123
+        title: Nguyen Van Thanh
         weight: 1
         params:
             description: Example description
