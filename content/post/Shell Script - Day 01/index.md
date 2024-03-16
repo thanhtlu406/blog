@@ -26,11 +26,9 @@ cat /dev/null > wtmp
 echo "Log files cleaned up."
 ```
 
-There is nothing unusual here, only a set of commands that could just as easily have been invoked one by one from the command-line on the console or in a terminal window.
-
-The advantages of placing the commands in a script go far beyond not having to retype them time and again. 
-
-The script becomes a program -- a tool -- and it can easily be modified or customized for a particular application.
+- There is nothing unusual here, only a set of commands that could just as easily have been invoked one by one from the command-line on the console or in a terminal window.
+- The advantages of placing the commands in a script go far beyond not having to retype them time and again. 
+- The script becomes a program -- a tool -- and it can easily be modified or customized for a particular application.
 
 ## Example 2-2. cleanup: An improved clean-up script
 ```
