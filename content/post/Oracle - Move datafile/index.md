@@ -73,7 +73,7 @@ SHUTDOWN IMMEDIATE;
 ### Move files on Standby:
 ```
 # Move or rename the file
-mv /u02/oradata/orcl/example01.dbf /u03/oradata/orcl/example01_temp.dbf
+mv /u02/data/his/oradata/HIS100.dbf /data/his/oradata/HIS100.dbf
 ```
 
 ### Start, rename data file, and open database in read-only mode on Standby:
