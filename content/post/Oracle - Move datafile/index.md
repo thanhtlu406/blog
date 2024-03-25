@@ -80,7 +80,7 @@ mv /u02/oradata/orcl/example01.dbf /u03/oradata/orcl/example01_temp.dbf
 ```
 STARTUP MOUNT;
 ALTER DATABASE RENAME FILE '/u02/data/his/oradata/HIS100.dbf' TO '/data/his/oradata/HIS100.dbf';
-ALTER DATABASE OPEN;
+ALTER DATABASE OPEN READ ONLY;
 ```
 
 ### Verify vị trí mới trên Standby:
