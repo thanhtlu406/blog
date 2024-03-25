@@ -117,25 +117,15 @@ ALTER DATABASE RECOVER MANAGED STANDBY DATABASE USING CURRENT LOGFILE DISCONNECT
 ```
 
 Then, open a session to monitor the alert log for logs.
-"Wait for 5 minutes" until a log line appears with (in transit) indicating real-time synchronization.
-=> It's necessary to bring the database up in readonly mode; currently, it's in mount mode.
 
-### Cancel database synchronization
-```
-ALTER DATABASE RECOVER MANAGED STANDBY DATABASE CANCEL;
-```
+"Wait for 5 minutes" until a log line appears with (in transit) indicating real-time synchronization.
+
+=> It's necessary to bring the database up in readonly mode; currently, it's in mount mode.
 
 ### Open the database in readonly mode
 ```
 ALTER DATABASE OPEN READ ONLY;
 ```
-
-### Initiate synchronization again
-```
-ALTER DATABASE RECOVER MANAGED STANDBY DATABASE USING CURRENT LOGFILE DISCONNECT;
-```
-
-Check log file for the line containing "in transit" to confirm.
 
 ### Check Standby Lag
 ```
