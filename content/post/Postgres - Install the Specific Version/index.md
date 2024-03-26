@@ -1,7 +1,7 @@
 +++
 author = "ThanhNV"
 title = "How to install the specific version of PostgreSQL?"
-date = "2024-03-22"
+date = "2024-03-26"
 description = "Install the latest version of PostgreSQL. If you want a specific version, use 'postgresql-16' or similar instead of 'postgresql'"
 tags = [
     "postgres",
