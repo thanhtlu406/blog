@@ -46,7 +46,7 @@ sudo apt-cache pkgnames | grep postgresql | sort
 ```
 
 ### II. Start PostgreSQL
-- Configure Environment for PostgreSQL User
+- Configure Environment for PostgreSQL User:
 ```
 $ sudo -u postgres bash -c 'cat <<EOF > $HOME/.bash_profile
 # .bash_profile
@@ -63,7 +63,7 @@ alias rsync='rsync -e "ssh -o StrictHostKeyChecking=no"'
 EOF'
 ```
 
-- Start PostgreSQL using pg_ctl
+- Start PostgreSQL using pg_ctl:
 ```
 pg_ctl start
 ```
